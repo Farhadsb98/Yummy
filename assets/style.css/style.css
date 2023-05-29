@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+header {
+  background-color: #fff;
+  transition: all 0.5s;
+  z-index: 997;
+  height: 90px;
+  border-bottom: 1px solid #fff;
+}
+header h1 {
+  font-size: 28px;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+}
+header span {
+  color: red;
+}
+
+.btn-book-a-table {
+  padding: 8px 20px;
+  background-color: red;
+  border-radius: 50px;
+  transition: 0.3s;
+  color: white;
+}
+.nav-item:hover .nav-link {
+  color: red;
+  border-bottom: 3px solid red;
+}
+
+section span {
+  color: black;
+}
+section h2 {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-family: "Amatic SC", cursive;
+}
+.call-us {
+  width: 90%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  left: 40px;
+  bottom: 90px;
+}
+.call-us p {
+  color: #ce1212;
+}
+
+.bg-eee {
+  background: #eee;
+}
+
+.h60vh {
+  min-height: 60vh;
+}
+
+.mt-90 {
+  margin-top: 90px;
+}
+/* About */
+.section-header h2 {
+  font-size: 25px;
+  margin: 0;
+  padding: 10px;
+  letter-spacing: 1px;
+  color: #7f7f90;
+  text-transform: uppercase;
+}
+.section-header {
+  text-align: center;
+}
+.section-header p {
+  padding: 0;
+  font-size: 48px;
+  font-weight: 400;
+  margin: 0;
+  color: #212529;
+  font-family: "Amatic SC", cursive;
+}
+.section-header span {
+  color: #ce1212;
+}
